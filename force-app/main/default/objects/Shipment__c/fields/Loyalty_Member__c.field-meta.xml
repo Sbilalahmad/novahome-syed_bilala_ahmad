@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loyalty_Member__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Loyalty member receiving this shipment.</description>
+    <inlineHelpText>Link the shipment to the registered member.</inlineHelpText>
+    <label>Loyalty Member</label>
+    <referenceTo>Loyalty_Member__c</referenceTo>
+    <relationshipLabel>Shipments</relationshipLabel>
+    <relationshipName>Shipments</relationshipName>
+    <type>Lookup</type>
+</CustomField>

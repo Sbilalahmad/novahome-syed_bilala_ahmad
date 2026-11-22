@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warranty_Start_Date__c</fullName>
+    <description>First day of warranty coverage.</description>
+    <inlineHelpText>Coverage begins on this date.</inlineHelpText>
+    <label>Warranty Start Date</label>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tracking_Number__c</fullName>
+    <description>Carrier tracking number for the shipment.</description>
+    <inlineHelpText>Enter the number supplied by the carrier.</inlineHelpText>
+    <label>Tracking Number</label>
+    <length>255</length>
+    <type>Text</type>
+</CustomField>

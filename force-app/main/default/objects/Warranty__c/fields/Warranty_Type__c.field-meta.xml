@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warranty_Type__c</fullName>
+    <description>Level of warranty coverage purchased.</description>
+    <inlineHelpText>Select the coverage plan from the invoice.</inlineHelpText>
+    <label>Warranty Type</label>
+    <type>Picklist</type>
+    <valueSet><restricted>true</restricted>
+    <valueSetDefinition>
+    <sorted>false</sorted>
+    <value>
+    <fullName>Standard</fullName>
+    <default>false</default>
+    <label>Standard</label>
+    </value>
+    <value>
+    <fullName>Extended</fullName>
+    <default>false</default>
+    <label>Extended</label>
+    </value>
+    <value>
+    <fullName>Premium</fullName>
+    <default>false</default>
+    <label>Premium</label>
+    </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

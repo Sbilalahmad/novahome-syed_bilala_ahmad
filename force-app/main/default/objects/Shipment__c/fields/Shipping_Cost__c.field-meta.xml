@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shipping_Cost__c</fullName>
+    <description>Cost charged to ship the order.</description>
+    <inlineHelpText>Enter the amount in the org default currency.</inlineHelpText>
+    <label>Shipping Cost</label>
+    <precision>18</precision>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

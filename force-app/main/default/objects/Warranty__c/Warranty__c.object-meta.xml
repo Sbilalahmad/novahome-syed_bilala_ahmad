@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>The Warranty object records product warranty coverage. It captures Product Name, Serial Number, Purchase Date, coverage dates, Warranty Status and Type, Customer Email, and Warranty Description, linked to a Loyalty Member. End dates must follow start dates; purchase dates cannot be in the future. Commonly used for coverage checks.</description>
+    <enableActivities>true</enableActivities>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <label>Warranty</label>
+    <nameField><label>Warranty Number</label>
+    <type>AutoNumber</type>
+    <displayFormat>WRR-{0000}</displayFormat>
+    <startingNumber>1</startingNumber>
+    </nameField>
+    <pluralLabel>Warranties</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

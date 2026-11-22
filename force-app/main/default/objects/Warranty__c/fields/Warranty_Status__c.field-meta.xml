@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warranty_Status__c</fullName>
+    <description>Current state of the warranty.</description>
+    <inlineHelpText>Set to Claimed once a warranty claim is filed.</inlineHelpText>
+    <label>Warranty Status</label>
+    <type>Picklist</type>
+    <valueSet><restricted>true</restricted>
+    <valueSetDefinition>
+    <sorted>false</sorted>
+    <value>
+    <fullName>Active</fullName>
+    <default>false</default>
+    <label>Active</label>
+    </value>
+    <value>
+    <fullName>Expired</fullName>
+    <default>false</default>
+    <label>Expired</label>
+    </value>
+    <value>
+    <fullName>Claimed</fullName>
+    <default>false</default>
+    <label>Claimed</label>
+    </value>
+    <value>
+    <fullName>Cancelled</fullName>
+    <default>false</default>
+    <label>Cancelled</label>
+    </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

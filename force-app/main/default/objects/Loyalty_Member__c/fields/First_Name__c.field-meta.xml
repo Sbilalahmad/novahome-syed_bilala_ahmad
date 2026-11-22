@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Name__c</fullName>
+    <description>Member given name.</description>
+    <inlineHelpText>Enter the name as it appears on the account.</inlineHelpText>
+    <label>First Name</label>
+    <length>255</length>
+    <type>Text</type>
+</CustomField>

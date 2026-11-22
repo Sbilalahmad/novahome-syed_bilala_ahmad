@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Purchase_Date__c</fullName>
+    <description>Date the customer bought the product.</description>
+    <inlineHelpText>Use the invoice date; future dates are rejected.</inlineHelpText>
+    <label>Purchase Date</label>
+    <type>Date</type>
+</CustomField>

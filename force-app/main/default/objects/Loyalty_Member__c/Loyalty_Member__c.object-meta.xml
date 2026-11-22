@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>The Loyalty Member object stores enrolled customers and their rewards standing. It captures First Name, Last Name, Email, Phone, Membership Tier, Membership Start Date, Loyalty Points, Member Status, and Total Purchase Amount. Points cannot be negative. Commonly used for tier qualification, rewards balances, and member support.</description>
+    <enableActivities>true</enableActivities>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <label>Loyalty Member</label>
+    <nameField><label>Loyalty Member Number</label>
+    <type>AutoNumber</type>
+    <displayFormat>LM-{0000}</displayFormat>
+    <startingNumber>1</startingNumber>
+    </nameField>
+    <pluralLabel>Loyalty Members</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
