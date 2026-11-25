@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grants the running user access to the JSONPlaceholder external credential principal.</description>
+    <externalCredentialPrincipalAccesses>
+        <externalCredentialPrincipal>JSONPlaceholder_External-JSONPlaceholder Principal</externalCredentialPrincipal>
+        <enabled>true</enabled>
+    </externalCredentialPrincipalAccesses>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>JSONPlaceholder Callout Access</label>
+</PermissionSet>
